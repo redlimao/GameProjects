@@ -1,0 +1,99 @@
+2018-05-24T01:53:48.841Z - normal: Load ~/.CocosCreator/settings.json
+2018-05-24T01:53:48.854Z - normal: checking language setting...
+2018-05-24T01:53:48.854Z - normal: Language: zh
+2018-05-24T01:53:53.304Z - success: protocol editor-framework registered
+2018-05-24T01:53:53.305Z - success: protocol app registered
+2018-05-24T01:53:53.305Z - success: protocol theme registered
+2018-05-24T01:53:53.305Z - success: protocol packages registered
+2018-05-24T01:53:53.306Z - success: protocol unpack registerred
+2018-05-24T01:53:53.307Z - success: protocol disable-commonjs registerred
+2018-05-24T01:53:53.500Z - normal: connected!
+2018-05-24T01:53:53.508Z - normal: Check project E:\GameProjects\StartProject
+2018-05-24T01:53:53.513Z - normal: Initializing Cocos2d
+2018-05-24T01:53:54.598Z - normal: Initializing Asset Database
+2018-05-24T01:53:54.735Z - success: protocol uuid registerred
+2018-05-24T01:53:54.735Z - success: protocol db registerred
+2018-05-24T01:53:54.735Z - success: protocol thumbnail registerred
+2018-05-24T01:53:54.736Z - normal: Loading editor/builtin packages
+2018-05-24T01:53:54.913Z - success: anysdk loaded
+2018-05-24T01:53:55.317Z - success: assets loaded
+2018-05-24T01:53:55.323Z - success: builder loaded
+2018-05-24T01:53:55.329Z - success: cocos-analytics loaded
+2018-05-24T01:53:55.346Z - success: console loaded
+2018-05-24T01:53:55.451Z - success: fb-instant-games loaded
+2018-05-24T01:53:55.460Z - success: hierarchy loaded
+2018-05-24T01:53:55.467Z - success: inspector loaded
+2018-05-24T01:53:55.471Z - success: keystore loaded
+2018-05-24T01:53:55.479Z - success: node-library loaded
+2018-05-24T01:53:55.495Z - success: package-asset loaded
+2018-05-24T01:53:55.502Z - success: preferences loaded
+2018-05-24T01:53:55.506Z - success: project-exporter loaded
+2018-05-24T01:53:55.549Z - success: project-importer loaded
+2018-05-24T01:53:55.553Z - success: project-settings loaded
+2018-05-24T01:53:55.559Z - success: ui-kit loaded
+2018-05-24T01:53:55.566Z - success: ui-grid loaded
+2018-05-24T01:53:55.574Z - success: scene loaded
+2018-05-24T01:53:55.577Z - success: sprite-editor loaded
+2018-05-24T01:53:55.601Z - success: store loaded
+2018-05-24T01:53:55.612Z - success: timeline loaded
+2018-05-24T01:53:55.613Z - normal: Loading builtin packages
+2018-05-24T01:53:55.619Z - success: asset-db-debugger loaded
+2018-05-24T01:53:55.622Z - success: code-editor loaded
+2018-05-24T01:53:55.629Z - success: color-picker loaded
+2018-05-24T01:53:55.635Z - success: package-manager loaded
+2018-05-24T01:53:55.662Z - success: sdkbox loaded
+2018-05-24T01:53:55.669Z - success: tester loaded
+2018-05-24T01:53:55.673Z - success: ui-kit-preview-extra loaded
+2018-05-24T01:53:55.676Z - success: ui-kit-preview loaded
+2018-05-24T01:53:55.680Z - success: ui-tree loaded
+2018-05-24T01:53:59.655Z - normal: Initializing project E:\GameProjects\StartProject
+2018-05-24T01:53:59.679Z - normal: Loading packages
+2018-05-24T01:53:59.691Z - normal: Watching packages
+2018-05-24T01:53:59.737Z - normal: Run Application
+2018-05-24T01:54:03.711Z - success: preview server running at http://localhost:7456
+2018-05-24T01:54:18.214Z - normal: 1.9.1
+2018-05-24T03:06:28.055Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:39442
+2018-05-24T03:11:45.602Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:45945
+2018-05-24T04:04:57.825Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:66232
+2018-05-24T04:12:20.055Z - failed: [db-task][sync-changes] Failed to import asset E:\GameProjects\StartProject\assets\scripts\Star.js, message: Compile error: SyntaxError: E:/GameProjects/StartProject/assets/scripts/Star.js: Unexpected token, expected , (28:4)
+  26 |         
+  27 |     }
+> 28 |     getPlayerDistance: function () {
+     |     ^
+  29 |         // 根据 player 节点位置判断距离
+  30 |         var playerPos = this.game.player.getPosition();
+  31 |         // 根据两点位置计算两点之间距离
+    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$3.parseObj (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+2018-05-24T04:16:00.732Z - failed: [db-task][sync-changes] Failed to import asset E:\GameProjects\StartProject\assets\scripts\Star.js, message: Compile error: SyntaxError: E:/GameProjects/StartProject/assets/scripts/Star.js: Unexpected token, expected , (28:4)
+  26 |         
+  27 |     }
+> 28 |     getPlayerDistance: function () {
+     |     ^
+  29 |         // 根据 player 节点位置判断距离
+  30 |         var playerPos = this.game.player.getPosition();
+  31 |         // 根据两点位置计算两点之间距离
+    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$3.parseObj (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+2018-05-24T04:17:26.486Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:79933
+2018-05-24T04:19:34.510Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:82296
+2018-05-24T04:26:25.043Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:90588
+2018-05-24T04:30:14.129Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:95229
+2018-05-24T04:34:21.191Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:100172
+2018-05-24T07:42:30.737Z - info: shutdown preview server
